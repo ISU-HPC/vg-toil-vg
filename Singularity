@@ -16,7 +16,7 @@ apt-get install -y python-pip python-virtualenv
 
 # Install toil and toil-vg
 cd /opt
-virutalenv toil-vg
+virtualenv toil-vg
 source toil-vg/bin/activate
 pip install toil[aws,mesos]==3.18.0
 pip install toil-vg
