@@ -20,4 +20,4 @@ virtualenv toil-vg
 . toil-vg/bin/activate
 pip install toil[aws,mesos]==3.18.0
 pip install toil-vg
-echo "export PATH=/opt/toil-vg/bin:$PATH" >>$SINGULARITY_ENVIRONMENT
+echo "export PATH=/vg/bin:/vg/scripts:/opt/toil-vg/bin:$PATH" >>$SINGULARITY_ENVIRONMENT
